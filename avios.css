@@ -1,0 +1,135 @@
+body,td,th {
+	font-size: 16px;
+}
+div,span,object,frame,h1,h2,h3,h4,h5,h6,p,blockquote,a,code,em,img,q,small,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,table,tbody,tr,th,td,input,menu{margin:0;padding:0;font-style:normal;}
+ul,li{list-style:none}
+BODY {
+		background-color:#DBDBDB; 
+	color:#000000;
+	margin:0px auto; padding:0;
+	font-size:16px;
+}
+a,a:link,a:visited,a:hover,a:active {
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#nav {
+	width: 100%;margin:auto;overflow:hidden;
+}
+#nav li {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 30px;
+	width: 24.6%;
+	background-color: #000000;
+	text-decoration: none;
+	text-align: center;
+}
+#title {
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #000000;
+	width: 99%;
+
+	line-height: 30px;overflow:hidden; 
+	height: 30px;
+}
+#title span {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	width: 80px;
+}
+ul{
+    margin:0px auto;
+    padding:0px 0px;
+    list-style-type:none;
+}
+#title  p {
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #FFFF00;
+	text-decoration: none;
+	float: right;
+	width: 40px;
+}.centent {
+	background-color: #CCCCCC;
+	width: 99%;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+}
+.ctit {
+	font-size: 16px;
+	line-height: 22px;
+	color: #333333;
+	display:block;
+	overflow:hidden;
+	height: 22px;
+	width: 100%;
+	margin-top: 5px;
+}
+ .centjj {
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;display:block;
+	overflow:hidden;
+	height: 22px;
+	width: 100%;
+}
+
+
+.centent li {
+	padding: 2px;
+	float: left;
+	width: 31%;
+	text-decoration: none;
+	background-color: #F9F9F9;
+	border: 1px solid #999999;
+	margin: 2px;
+}
+
+.centent img {
+	width: 100%; 
+}
+.ctimg img{
+	width: 100%; 
+}
+.ctimg{
+	width: 33.33%; font-size: 16px;
+	height:100%;
+}
+.imgg img{
+	width:45px; height:30px;
+	
+}
+.imgg{
+	height:22px;
+	margin-bottom: 9px;
+	padding-bottom: 39px;
+}
+.g_zixun a{
+	padding:0 3px;
+	color:#ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.g_zixun{position: fixed; bottom:0; width:100%;line-height: 50px; background-color:#000000 }
+.g_zixun a{ display:block; font-size:18px; width:100%; padding:0; margin:0; float:left; height: 50px;
+    line-height: 50px;
+    text-align: center;overflow:hidden;}
