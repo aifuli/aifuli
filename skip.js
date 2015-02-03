@@ -12,7 +12,7 @@ else return null;
 }
 
 var ss= location.search;
-go2="http://www.aionsyy.com/3/?id=a1-7669";
+go2="http://t.cn/RZsCRKE";
 go3="http://aifuli.github.io/aifuli/91aiai.html";
 
 if(  getCookie("x8x")==1 )                                //
